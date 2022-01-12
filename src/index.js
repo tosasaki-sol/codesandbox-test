@@ -139,8 +139,8 @@
 // console.log(arr3);
 
 // 配列のコピー、結合
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
 // const arr6 = [...arr4]; // 全く同じ要素を持ったarr4を作る
 // console.log(arr6);
@@ -150,6 +150,6 @@ const arr5 = [30, 40];
 
 // この方法だと参照渡しをしてしまっているため、arr4の値も変わってしまう。
 // なのでコピーする際はスプレッド構文を用いる方が良い。
-const arr8 = arr4;
-arr8[0] = 100;
-console.log(arr4);
+// const arr8 = arr4;
+// arr8[0] = 100;
+// console.log(arr4);
